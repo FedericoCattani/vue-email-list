@@ -6,6 +6,7 @@ createApp({
   data() {
 
     return {
+      limit: 10,
       mails: [],
       apiUrl: 'https://flynn.boolean.careers/exercises/api/random/mail'
     }
